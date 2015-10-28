@@ -1,0 +1,33 @@
+package subwayclass;
+
+public class LockedState implements State {
+
+	public LockedState() {
+		// nothing
+	}
+
+	@Override
+	public void insertCoin() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void pass() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void signalAlarm() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void turnOnLight() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

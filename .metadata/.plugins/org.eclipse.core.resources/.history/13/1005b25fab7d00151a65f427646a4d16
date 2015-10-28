@@ -1,0 +1,12 @@
+package subwayclass;
+
+public interface State {
+	public void insertCoin();
+
+	public void pass();
+
+	public void signalAlarm();
+
+	public void turnOnLight();
+
+}

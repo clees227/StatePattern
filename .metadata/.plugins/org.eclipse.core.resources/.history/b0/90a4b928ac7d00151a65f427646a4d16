@@ -1,0 +1,32 @@
+
+public class LockedState implements State {
+	SubwayStation subway;
+	public LockedState(SubwayStation s) {
+		subway = s;
+	}
+
+	@Override
+	public void insertCoin() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void pass() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void signalAlarm() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void turnOnLight() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

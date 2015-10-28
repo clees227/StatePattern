@@ -1,0 +1,18 @@
+package subwayclass;
+
+public class SubwayStation {
+	private State state;
+	public UnlockedState unlockedState;
+	public LockedState lockedState;
+
+	public SubwayStation() {
+		unlockedState = new UnlockedState();
+		lockedState = new LockedState();
+		state = lockedState;
+	}
+
+	public void setState(State s) {
+		state = s;
+	}
+
+}
